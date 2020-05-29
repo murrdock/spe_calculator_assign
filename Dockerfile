@@ -1,7 +1,7 @@
 # Start with a base image containing Java runtime
 FROM openjdk:8
 # Add Maintainer Info
-LABEL maintainer="github.com/sarthak-sh18"
+LABEL maintainer="github.com/murrdock"
 # Make port 8080 available to the world outside this container
 EXPOSE 8081
 # Add the application's jar to the container
